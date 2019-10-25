@@ -34,6 +34,6 @@ EOF
 
 export -f add-msg
 
-add-msg index.html
-#find . -type f -name "*.html" -exec bash -c 'add-msg "$1"' - {} \;
+#add-msg index.html
+find . -type f -name "*.html" -exec bash -c 'add-msg "$1"' - {} \;
 
