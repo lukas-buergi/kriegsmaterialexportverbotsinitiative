@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.kriegsmaterial.ch/site"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Kriegsmaterial-Exporte verbieten!</title>
+ <link>http://www.kriegsmaterial.ch/site</link>
+ <description></description>
+ <language>de</language>
+<item>
+ <title>Coming soon...</title>
+ <link>http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html</link>
+ <description>&lt;p&gt;Auf dieser Website kannst Du schon bald mehr über die AUSGESCHOSSEN!-Kampagne der GSoA erfahren.&lt;/p&gt;
+&lt;style&gt;
+			#overlay {
+				position:fixed; 
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:#000;
+				opacity:0.5;
+				filter:alpha(opacity=50);
+z-index:1000;
+			}
+
+			#modal {
+				position:absolute;
+				background:url(tint20.png) 0 0 repeat;
+				background:rgba(0,0,0,0.2);
+				border-radius:14px;
+				padding:8px;
+z-index:1001;
+			}
+
+			#my_content {
+				border-radius:8px;
+				background:#fff;
+				padding:20px;
+z-index:1002;
+			}
+
+			#close {
+				position:absolute;
+				background:url(&#039;http://www.jacklmoore.com/demo/modal/close.png&#039;) 0 0 no-repeat;
+				width:24px;
+				height:27px;
+				display:block;
+				text-indent:-9999px;
+				top:-7px;
+				right:-7px;
+z-index:1003;
+			}
+		&lt;/style&gt;&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+			var modal = (function(){
+				var 
+				method = {},
+				$overlay,
+				$modal,
+				$content,
+				$close;
+
+				// Center the modal in the viewport
+				method.center = function () {
+					var top, left;
+
+					top = 40;
+					left = 20;
+
+					$modal.css({
+						top:top, 
+						left:left
+					});
+				};
+
+				// Open the modal
+				method.open = function (settings) {
+					$content.empty().append(&#039;&lt;img src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/ausgeschossen_underconstruction.preview.jpg&quot; alt=&quot;Coming soon...&quot; id=&quot;comingsoon&quot; title=&quot;Coming soon...&quot;  class=&quot;image image-preview &quot; width=&quot;500&quot; /&gt;&#039;);
+
+$(&quot;#comingsoon&quot;).width($(window).width() * 0.8);
+					$modal.css({
+						width: settings.width || &#039;auto&#039;, 
+						height: settings.height || &#039;auto&#039;
+					});
+
+					method.center();
+					$(window).bind(&#039;resize.modal&#039;, method.center);
+					$modal.show();
+					$overlay.show();
+				};
+
+				// Close the modal
+				method.close = function () {
+					$modal.hide();
+					$overlay.hide();
+					$content.empty();
+					$(window).unbind(&#039;resize.modal&#039;);
+				};
+
+				// Generate the HTML and add it to the document
+				$overlay = $(&#039;&lt;div id=&quot;overlay&quot;&gt;&lt;/div&gt;&#039;);
+				$modal = $(&#039;&lt;div id=&quot;modal&quot;&gt;&lt;/div&gt;&#039;);
+				$content = $(&#039;&lt;div id=&quot;my_content&quot;&gt;&lt;/div&gt;&#039;);
+				$close = $(&#039;&lt;a id=&quot;close&quot; href=&quot;#&quot;&gt;close&lt;/a&gt;&#039;);
+
+				$modal.hide();
+				$overlay.hide();
+				$modal.append($content, $close);
+
+				$(document).ready(function(){
+					$(&#039;body&#039;).append($overlay, $modal);						
+				});
+
+				$close.click(function(e){
+					e.preventDefault();
+					method.close();
+				});
+
+				return method;
+			}());
+
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+
+				
+					modal.open(&#039;&#039;);
+
+			});
+		&lt;/script&gt;&lt;p&gt;
+&lt;a id=&#039;howdy&#039; href=&#039;#&#039;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html#comments</comments>
+ <pubDate>Fri, 31 Jul 2015 11:35:07 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">487 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Die seltsame Auslegung des Bundesrates</title>
+ <link>http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a target=&quot;_blank&quot; onclick=&quot;launch_popup(292, 170, 203); return false;&quot; href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.jpg&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;120&quot; align=&quot;left&quot; width=&quot;100&quot; class=&quot;image image-thumbnail &quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.thumbnail.jpg&quot; /&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;&lt;p&gt;&lt;b&gt;Gemäss dem Bundesrat findet weder in Afghanistan noch in Libyen ein bewaffneter Konflikt im Sinne der Verordnung über das Kriegsmaterial statt. Denn die Empfängerstaaten seien an diesen Auseinandersetzungen mit Zustimmung des Sicherheitsrates beteiligt. Prof. Marco Sassòli bedauert, dass unser Land aus wirtschaftlichen Interessen einen zentralen Begriff des humanitären Völkerrechts untergräbt.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung#comments</comments>
+ <pubDate>Mon, 21 Nov 2011 23:00:15 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">485 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Die Abstimmung ist vorbei...</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/12/06/Die-Abstimmung-ist-vorbei.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/abstimmungsfest.jpg&quot; onclick=&quot;launch_popup(483, 800, 533); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;133&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/abstimmungsfest.thumbnail.jpg&quot; alt=&quot;&quot; title=&quot;&quot; class=&quot;image image-thumbnail&quot; /&gt;&lt;/a&gt;&lt;/span&gt;...und diese Seite wird nur noch unregelm&amp;auml;ssig aktualisiert, wenn es neue Skandale mit Schweizer Waffen geben sollte. Im Namen des ganzen B&amp;uuml;ndnisses bedankt sich das Kampagnen-Team allen, die sich f&amp;uuml;r die Abstimmung engagiert haben. Eine Bilanz in Form von &lt;a href=&quot;http://www.gsoa.ch/themen/kriegsmaterial-exporte/01066/sieben-grunde-weshalb-sich-die-initiative-gelohnt-/&quot;&gt;sieben Gr&amp;uuml;nden, weshalb sich die Initiative trotz der Ablehnung gelohnt hat&lt;/a&gt;, findet sich unter &lt;a href=&quot;http://www.gsoa.ch&quot;&gt;www.gsoa.ch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/12/06/Die-Abstimmung-ist-vorbei.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/12/06/Die-Abstimmung-ist-vorbei.html#comments</comments>
+ <pubDate>Sun, 06 Dec 2009 14:06:12 +0000</pubDate>
+ <dc:creator>ac</dc:creator>
+ <guid isPermaLink="false">484 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Ein herzliches Danke!</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kaesepanzer_233_245_cropscale_233x245.jpg&quot; onclick=&quot;launch_popup(481, 233, 245); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;210&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kaesepanzer_233_245_cropscale_233x245.jpg&quot; class=&quot;image image-_original &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Rund ein Drittel der Schweizer Stimmbev&amp;ouml;lkerung hat heute dem Bundesrat und den Beh&amp;ouml;rden ein Misstrauensvotum erteilt. Dass wir nicht gewonnen haben, ist keine &amp;Uuml;berraschung. Die Initiative kam in einem denkbar schlechten Zeitpunkt zur Abstimmung. Und unsere Gegner verf&amp;uuml;gten &amp;uuml;ber ein Budget, das mehr als 10 mal so gross war wie das unsere.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html#comments</comments>
+ <pubDate>Sun, 29 Nov 2009 18:14:37 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">482 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>29.11.2009: Abstimmungsfest im Progr Bern</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/26/29112009-Abstimmungsfest-im-Progr-Bern.html</link>
+ <description>&lt;p&gt;Alle, die sich f&amp;uuml;r die Initiative gegen Kriegsmaterial-Exporte engagiert haben, sind herzlich eingeladen zu unserem Abstimmungsfest! Wir treffen uns ab 12.00 Uhr im &lt;a target=&quot;_blank&quot; href=&quot;http://progr.ch/&quot;&gt;Progr&lt;/a&gt; in Bern (in der Aula im ersten Stock) und schauen uns gemeinsam die Abstimmungsresultate an. F&amp;uuml;r Essen und Trinken ist gesorgt.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Alles weitere (Wegbeschreibung) findet ihr auf dem Flyer zum Abstimmungsfest.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;a href=&quot;/site/sites/www.kriegsmaterial.ch/files/file/Flyer ABSTIMMUNGSFEST.pdf&quot;&gt;Flyer Abstimmungsfest (pdf)&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/26/29112009-Abstimmungsfest-im-Progr-Bern.html#comments</comments>
+ <pubDate>Thu, 26 Nov 2009 14:13:42 +0000</pubDate>
+ <dc:creator>reto</dc:creator>
+ <guid isPermaLink="false">480 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Oerlikon-Kanonen im Iran, AMSD-Gewehre in Georgien: Das Seco mauert</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/25/Oerlikon-Kanonen-im-Iran-AMSD-Gewehre-Georgien-Das-Seco-mauert.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a target=&quot;_blank&quot; onclick=&quot;launch_popup(475, 530, 700); return false;&quot; href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/plakat_1.1_digital_gross_thumb_800x700.jpg&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;200&quot; width=&quot;151&quot; class=&quot;image image-thumbnail&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/plakat_1.1_digital_gross_thumb_800x700.thumbnail.jpg&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Wie der &amp;quot;Blick&amp;quot; heute berichtet, wurden Scharfsch&amp;uuml;tzengewehre der Genfer Firma AMSD in den Auseinandersetzungen um S&amp;uuml;dossetien im letzten August auf georgischer Seite eingesetzt. Die Waffen m&amp;uuml;ssen auf illegalem Weg nach Georgien gelangt sein. Das Staatssekretariat f&amp;uuml;r Wirtschaft Seco wollte sich zu dem Fall nicht &amp;auml;ussern.&lt;/p&gt;
+&lt;p&gt;Das Mauern des Seco hat System: Auch im Fall der Flugabwehrkanonen von Oerlikon Contraves (heute Rheinmetall Air Defence), welche auf verschlungenen Wegen aus der Schweiz in den Iran geliefert wurden (siehe &lt;a target=&quot;_blank&quot; href=&quot;http://www.tagesanzeiger.ch/mobile/schweiz/standard/Wie-Washington-auf-Oerlikon-feuerte/s/31719148/index.html&quot;&gt;Tagesanzeiger-Artikel&lt;/a&gt;), setzt das Seco auf Diskretion.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/25/Oerlikon-Kanonen-im-Iran-AMSD-Gewehre-Georgien-Das-Seco-mauert.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/25/Oerlikon-Kanonen-im-Iran-AMSD-Gewehre-Georgien-Das-Seco-mauert.html#comments</comments>
+ <pubDate>Wed, 25 Nov 2009 16:57:28 +0000</pubDate>
+ <dc:creator>ac</dc:creator>
+ <guid isPermaLink="false">476 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Iranische Kriegsspiele mit Schweizer Kanonen</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/23/Iranische-Kriegsspiele-mit-Schweizer-Kanonen.html</link>
+ <description>&lt;p&gt;&lt;object height=&quot;330&quot; width=&quot;540&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;about:blank&quot; /&gt;
+&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
+&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed height=&quot;333&quot; width=&quot;540&quot; src=&quot;http://www.youtube.com/v/LU3i-qGt_8s&amp;amp;hl=de_DE&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/23/Iranische-Kriegsspiele-mit-Schweizer-Kanonen.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/23/Iranische-Kriegsspiele-mit-Schweizer-Kanonen.html#comments</comments>
+ <pubDate>Mon, 23 Nov 2009 12:17:19 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">472 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Dieses Wochenende an die Urne!</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/22/Dieses-Wochenende-die-Urne.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a target=&quot;_blank&quot; onclick=&quot;launch_popup(348, 563, 797); return false;&quot; href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Helvetes.jpg&quot;&gt;&lt;img height=&quot;200&quot; width=&quot;141&quot; class=&quot;image image-thumbnail&quot; title=&quot;&quot; alt=&quot;&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Helvetes.thumbnail.jpg&quot; /&gt;&lt;/a&gt;&lt;/span&gt;Die Stunde der Wahrheit naht: Heute in einer Woche, am 29.11., entscheidet die Stimmbev&amp;ouml;lkerung &amp;uuml;ber die Initiative f&amp;uuml;r ein Verbot von Kriegsmaterial-Exporten. Was wird sie h&amp;ouml;her gewichten: Die Profite der Waffeh&amp;auml;ndler oder Menschenleben in Darfur, Pakistan und anderswo? Wird die Schweiz international endlich wieder einmal positive Schlagzeilen machen? Oder verfestigt sich der Ruf der schweizerischen Kr&amp;auml;merseele?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/22/Dieses-Wochenende-die-Urne.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/22/Dieses-Wochenende-die-Urne.html#comments</comments>
+ <pubDate>Sun, 22 Nov 2009 12:13:25 +0000</pubDate>
+ <dc:creator>ac</dc:creator>
+ <guid isPermaLink="false">471 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Pilatus in Darfur: Kein Einzelfall - neue Bilder aus Angola</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/22/Pilatus-Darfur-Kein-Einzelfall-neue-Bilder-aus-Angola.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/pc7ang02zl6.jpg&quot; onclick=&quot;launch_popup(469, 512, 236); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;92&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/pc7ang02zl6.thumbnail.jpg&quot; alt=&quot;&quot; title=&quot;&quot; class=&quot;image image-thumbnail&quot; /&gt;&lt;/a&gt;&lt;/span&gt;Immer wieder betont die R&amp;uuml;stungslobby, der Einsatz eines mit Splitterbomben ausger&amp;uuml;steten Pilatus-Flugzeugs gegen Fl&amp;uuml;chtlingslager in Darfur sei ein &amp;quot;Einzelfall&amp;quot;. Tats&amp;auml;chlich sind zahlreiche vergleichbare Eins&amp;auml;tze der angeblichen &amp;quot;Traingsger&amp;auml;te&amp;quot; dokumentiert. Jetzt wurden dem B&amp;uuml;ndnis gegen Kriegsmaterial-Exporte Bilder einer bewaffneten PC-7 der angolanischen Armee zugespielt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/22/Pilatus-Darfur-Kein-Einzelfall-neue-Bilder-aus-Angola.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/22/Pilatus-Darfur-Kein-Einzelfall-neue-Bilder-aus-Angola.html#comments</comments>
+ <pubDate>Sun, 22 Nov 2009 12:07:43 +0000</pubDate>
+ <dc:creator>ac</dc:creator>
+ <guid isPermaLink="false">470 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Schweizweite Smartmobs 19.11.2009 18:00 =&gt; 18:04</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/20/Schweizweite-Smartmobs-19112009-1800-1804.html</link>
+ <description>&lt;p&gt;&lt;object height=&quot;344&quot; width=&quot;425&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;about:blank&quot; /&gt;
+&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
+&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed height=&quot;344&quot; width=&quot;425&quot; src=&quot;http://www.youtube.com/v/FBJRGJXps9A&amp;amp;hl=de_DE&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/zh2.jpg&quot; onclick=&quot;launch_popup(466, 604, 403); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;133&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/zh2.thumbnail.jpg&quot; class=&quot;image image-thumbnail&quot; /&gt;&lt;/a&gt;&lt;/span&gt;Hunderte Menschen haben heute in etwa 20 St&amp;auml;dten mit einem Smartmob f&amp;uuml;r eine JA&amp;nbsp;zur Volksinitiative f&amp;uuml;r ein Verbot von Kriegsmaterial-Exporten geworben. Genau um 18:00 fielen sie mitten im Pendlerverkehr zu Boden, um zu zeigen, was Schweizer Waffen in aller Welt verursachen - Tod und Verw&amp;uuml;stung. Hier die ersten Bilder.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/20/Schweizweite-Smartmobs-19112009-1800-1804.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/20/Schweizweite-Smartmobs-19112009-1800-1804.html#comments</comments>
+ <pubDate>Thu, 19 Nov 2009 23:35:33 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">462 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Systematische Irreführung durch Doris Leuthard</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/16/Systematische-Irrefuehrung-durch-Doris-Leuthard.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Leuthard Arena.png&quot; onclick=&quot;launch_popup(440, 634, 357); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;113&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Leuthard Arena.thumbnail.png&quot; alt=&quot;&quot; title=&quot;&quot; class=&quot;image image-thumbnail&quot; /&gt;&lt;/a&gt;&lt;/span&gt;In Chhattisgarh w&amp;uuml;rden keine Kindersoldaten mehr rekrutiert, nach Pakistan w&amp;uuml;rden keine Kriegsmaterial-Exporte mehr bewilligt, und von den Gewerkschaften sei nur die UNIA f&amp;uuml;r ein Verbot von Kriegsmaterial-Exporten. Mit diesen und anderen irref&amp;uuml;hrenden Behauptungen macht Bundesr&amp;auml;tin Doris Leuthard in der Arena und anderswo Abstimmungskampf gegen ein Verbot von Kriegsmaterial-Exporten. Eine Dokumentation der schlimmsten Ausrutscher.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/16/Systematische-Irrefuehrung-durch-Doris-Leuthard.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/16/Systematische-Irrefuehrung-durch-Doris-Leuthard.html#comments</comments>
+ <pubDate>Mon, 16 Nov 2009 19:21:33 +0000</pubDate>
+ <dc:creator>ac</dc:creator>
+ <guid isPermaLink="false">441 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Christinnen und Christen für den Frieden</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/12/Christinnen-und-Christen-fuer-den-Frieden.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Bild web.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;133&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Bild web.thumbnail.jpg&quot; class=&quot;image image-thumbnail&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Heute haben anl&amp;auml;sslich einer Pressekonferenz in der Heiliggeistkirche Bern verschiedene VertreterInnen des Komitees &amp;quot;Christinnen und Christen f&amp;uuml;r den Frieden&amp;quot; die Gr&amp;uuml;nde ihrer Zustimmung zum Verbot von Kriegsmaterial-Exporten dargelegt. Breite Kreise aus dem Umfeld der katholischen und der protestantische Kirche, aber auch Angeh&amp;ouml;rige der Mennoniten, der Methodisten und verschiedener Freikirchen haben die Erkl&amp;auml;rung &amp;quot;Christinnen und Christen f&amp;uuml;r den Frieden&amp;quot;&amp;nbsp;unterzeichnet. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/12/Christinnen-und-Christen-fuer-den-Frieden.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/12/Christinnen-und-Christen-fuer-den-Frieden.html#comments</comments>
+ <pubDate>Thu, 12 Nov 2009 14:42:18 +0000</pubDate>
+ <dc:creator>nina</dc:creator>
+ <guid isPermaLink="false">438 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title> Weshalb Waffenexporte die Schweiz unsicherer und nicht sicherer machen</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/12/Weshalb-Waffenexporte-die-Schweiz-unsicherer-und-nicht-sicherer-machen.html</link>
+ <description>&lt;h3&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;../../../../../www.kriegsmaterial.ch/files/images/taliban.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;132&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/taliban.jpg&quot; alt=&quot;Auch die Taliban verwenden Schweizer Waffen&quot; title=&quot;Auch die Taliban verwenden Schweizer Waffen&quot; class=&quot;image image-preview&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Initiativgegner versuchen, das Kriegsmaterial-Exportverbot als Gefahr f&amp;uuml;r die Sicherheit der Schweiz darzustellen. Aber f&amp;uuml;r die Sicherheit der Schweiz ist ganz anderes wichtig, zum Beispiel die Neutralit&amp;auml;t. Und diese verliert mit Waffenexporten ihre Glaubw&amp;uuml;rdigkeit. Zum anderen ist die Schweizer Armee auch mit den R&amp;uuml;stungsexporten v&amp;ouml;llig abh&amp;auml;ngig vom Ausland.&lt;/p&gt;
+&lt;p&gt;Wir haben die Argumente in unserem &lt;a href=&quot;http://www.kriegsmaterial.ch/site/Sicherheit.html&quot;&gt;Dossier Sicherheit&lt;/a&gt; zusammengestellt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/12/Weshalb-Waffenexporte-die-Schweiz-unsicherer-und-nicht-sicherer-machen.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/12/Weshalb-Waffenexporte-die-Schweiz-unsicherer-und-nicht-sicherer-machen.html#comments</comments>
+ <pubDate>Thu, 12 Nov 2009 10:53:56 +0000</pubDate>
+ <dc:creator>dbu</dc:creator>
+ <guid isPermaLink="false">434 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Bundesrat bewilligt Waffenlieferung für Kindersoldaten</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/kindersoldaten.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;143&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/kindersoldaten.jpg&quot; class=&quot;image image-preview &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Ein weiterer Skandal zerst&amp;ouml;rt den Mythos der &amp;quot;vorbildlichen und restriktiven&amp;quot; Schweizer Waffenexportpraxis.&lt;/p&gt;
+&lt;p&gt;Die Zeitung &amp;bdquo;Sonntag&amp;ldquo; berichtet in ihrer heutigen Ausgabe, dass der Bundesrat im M&amp;auml;rz 2009 die Ausfuhr von Maschinenpistolen an die Sicherheitskr&amp;auml;fte des indischen Teilstaats Chhattisgarh bewilligt hat. Dabei kommen im Konflikt zwischen der hinduistisch-nationalistischen Regierung und den maoistischen Rebellen in diesem Bundesstaat auf beiden Seiten Kindersoldaten zum Einsatz.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html#comments</comments>
+ <pubDate>Sun, 08 Nov 2009 13:26:52 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">428 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Friedensnobelpreisträger unterstützen Initiative</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html</link>
+ <description>&lt;p&gt;&lt;span lang=&quot;de-CH&quot;&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Archbishop-Tutu-medium.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;200&quot; align=&quot;left&quot; width=&quot;133&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Archbishop-Tutu-medium.thumbnail.jpg&quot; alt=&quot;Desmond Tutu, Erzbischof und Friedensnobelpreistr&amp;auml;ger&quot; title=&quot;Erzbischof Desmond Tutu&quot; class=&quot;image image-thumbnail &quot; /&gt;&lt;/a&gt;&lt;/span&gt;In der vergangenen Woche haben wir &amp;uuml;berraschende Post von gleich zwei sehr renommierten Pers&amp;ouml;nlichkeiten erhalten hat. Sowohl der s&amp;uuml;dafrikanische Friedensnobelpreistr&amp;auml;ger und anglikanische &lt;b&gt;Erzbischof Desmond Tutu&lt;/b&gt; wie auch der argentinische Friedensnobelpreistr&amp;auml;ger und &lt;b&gt;B&amp;uuml;rgerrechtler Adolfo Perez Esquivel&lt;/b&gt; haben unabh&amp;auml;ngig voneinander ihre Sympathie mit unserem Anliegen zum Ausdruck gebracht. Ihre Stellungnahmen zeugen von der internationalen Ausstrahlung unserer Initiative.&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html#comments</comments>
+ <pubDate>Mon, 02 Nov 2009 01:06:13 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">407 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.kriegsmaterial.ch/site"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>aw&#039;s blog</title>
+ <link>http://www.kriegsmaterial.ch/site/blogs/aw</link>
+ <description></description>
+ <language>de</language>
+<item>
+ <title>Coming soon...</title>
+ <link>http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html</link>
+ <description>&lt;p&gt;Auf dieser Website kannst Du schon bald mehr über die AUSGESCHOSSEN!-Kampagne der GSoA erfahren.&lt;/p&gt;
+&lt;style&gt;
+			#overlay {
+				position:fixed; 
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:#000;
+				opacity:0.5;
+				filter:alpha(opacity=50);
+z-index:1000;
+			}
+
+			#modal {
+				position:absolute;
+				background:url(tint20.png) 0 0 repeat;
+				background:rgba(0,0,0,0.2);
+				border-radius:14px;
+				padding:8px;
+z-index:1001;
+			}
+
+			#my_content {
+				border-radius:8px;
+				background:#fff;
+				padding:20px;
+z-index:1002;
+			}
+
+			#close {
+				position:absolute;
+				background:url(&#039;http://www.jacklmoore.com/demo/modal/close.png&#039;) 0 0 no-repeat;
+				width:24px;
+				height:27px;
+				display:block;
+				text-indent:-9999px;
+				top:-7px;
+				right:-7px;
+z-index:1003;
+			}
+		&lt;/style&gt;&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+			var modal = (function(){
+				var 
+				method = {},
+				$overlay,
+				$modal,
+				$content,
+				$close;
+
+				// Center the modal in the viewport
+				method.center = function () {
+					var top, left;
+
+					top = 40;
+					left = 20;
+
+					$modal.css({
+						top:top, 
+						left:left
+					});
+				};
+
+				// Open the modal
+				method.open = function (settings) {
+					$content.empty().append(&#039;&lt;img src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/ausgeschossen_underconstruction.preview.jpg&quot; alt=&quot;Coming soon...&quot; id=&quot;comingsoon&quot; title=&quot;Coming soon...&quot;  class=&quot;image image-preview &quot; width=&quot;500&quot; /&gt;&#039;);
+
+$(&quot;#comingsoon&quot;).width($(window).width() * 0.8);
+					$modal.css({
+						width: settings.width || &#039;auto&#039;, 
+						height: settings.height || &#039;auto&#039;
+					});
+
+					method.center();
+					$(window).bind(&#039;resize.modal&#039;, method.center);
+					$modal.show();
+					$overlay.show();
+				};
+
+				// Close the modal
+				method.close = function () {
+					$modal.hide();
+					$overlay.hide();
+					$content.empty();
+					$(window).unbind(&#039;resize.modal&#039;);
+				};
+
+				// Generate the HTML and add it to the document
+				$overlay = $(&#039;&lt;div id=&quot;overlay&quot;&gt;&lt;/div&gt;&#039;);
+				$modal = $(&#039;&lt;div id=&quot;modal&quot;&gt;&lt;/div&gt;&#039;);
+				$content = $(&#039;&lt;div id=&quot;my_content&quot;&gt;&lt;/div&gt;&#039;);
+				$close = $(&#039;&lt;a id=&quot;close&quot; href=&quot;#&quot;&gt;close&lt;/a&gt;&#039;);
+
+				$modal.hide();
+				$overlay.hide();
+				$modal.append($content, $close);
+
+				$(document).ready(function(){
+					$(&#039;body&#039;).append($overlay, $modal);						
+				});
+
+				$close.click(function(e){
+					e.preventDefault();
+					method.close();
+				});
+
+				return method;
+			}());
+
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+
+				
+					modal.open(&#039;&#039;);
+
+			});
+		&lt;/script&gt;&lt;p&gt;
+&lt;a id=&#039;howdy&#039; href=&#039;#&#039;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2015/07/31/Coming-soon.html#comments</comments>
+ <pubDate>Fri, 31 Jul 2015 11:35:07 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">487 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Die seltsame Auslegung des Bundesrates</title>
+ <link>http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a target=&quot;_blank&quot; onclick=&quot;launch_popup(292, 170, 203); return false;&quot; href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.jpg&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;120&quot; align=&quot;left&quot; width=&quot;100&quot; class=&quot;image image-thumbnail &quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.thumbnail.jpg&quot; /&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;&lt;p&gt;&lt;b&gt;Gemäss dem Bundesrat findet weder in Afghanistan noch in Libyen ein bewaffneter Konflikt im Sinne der Verordnung über das Kriegsmaterial statt. Denn die Empfängerstaaten seien an diesen Auseinandersetzungen mit Zustimmung des Sicherheitsrates beteiligt. Prof. Marco Sassòli bedauert, dass unser Land aus wirtschaftlichen Interessen einen zentralen Begriff des humanitären Völkerrechts untergräbt.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/bundesrat-auslegung-verordnung#comments</comments>
+ <pubDate>Mon, 21 Nov 2011 23:00:15 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">485 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Ein herzliches Danke!</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kaesepanzer_233_245_cropscale_233x245.jpg&quot; onclick=&quot;launch_popup(481, 233, 245); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;210&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kaesepanzer_233_245_cropscale_233x245.jpg&quot; class=&quot;image image-_original &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Rund ein Drittel der Schweizer Stimmbev&amp;ouml;lkerung hat heute dem Bundesrat und den Beh&amp;ouml;rden ein Misstrauensvotum erteilt. Dass wir nicht gewonnen haben, ist keine &amp;Uuml;berraschung. Die Initiative kam in einem denkbar schlechten Zeitpunkt zur Abstimmung. Und unsere Gegner verf&amp;uuml;gten &amp;uuml;ber ein Budget, das mehr als 10 mal so gross war wie das unsere.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/29/Ein-herzliches-Danke.html#comments</comments>
+ <pubDate>Sun, 29 Nov 2009 18:14:37 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">482 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Bundesrat bewilligt Waffenlieferung für Kindersoldaten</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/kindersoldaten.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;143&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/kindersoldaten.jpg&quot; class=&quot;image image-preview &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Ein weiterer Skandal zerst&amp;ouml;rt den Mythos der &amp;quot;vorbildlichen und restriktiven&amp;quot; Schweizer Waffenexportpraxis.&lt;/p&gt;
+&lt;p&gt;Die Zeitung &amp;bdquo;Sonntag&amp;ldquo; berichtet in ihrer heutigen Ausgabe, dass der Bundesrat im M&amp;auml;rz 2009 die Ausfuhr von Maschinenpistolen an die Sicherheitskr&amp;auml;fte des indischen Teilstaats Chhattisgarh bewilligt hat. Dabei kommen im Konflikt zwischen der hinduistisch-nationalistischen Regierung und den maoistischen Rebellen in diesem Bundesstaat auf beiden Seiten Kindersoldaten zum Einsatz.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/08/Bundesrat-bewilligt-Waffenlieferung-fuer-Kindersoldaten.html#comments</comments>
+ <pubDate>Sun, 08 Nov 2009 13:26:52 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">428 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Friedensnobelpreisträger unterstützen Initiative</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html</link>
+ <description>&lt;p&gt;&lt;span lang=&quot;de-CH&quot;&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Archbishop-Tutu-medium.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;200&quot; align=&quot;left&quot; width=&quot;133&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Archbishop-Tutu-medium.thumbnail.jpg&quot; alt=&quot;Desmond Tutu, Erzbischof und Friedensnobelpreistr&amp;auml;ger&quot; title=&quot;Erzbischof Desmond Tutu&quot; class=&quot;image image-thumbnail &quot; /&gt;&lt;/a&gt;&lt;/span&gt;In der vergangenen Woche haben wir &amp;uuml;berraschende Post von gleich zwei sehr renommierten Pers&amp;ouml;nlichkeiten erhalten hat. Sowohl der s&amp;uuml;dafrikanische Friedensnobelpreistr&amp;auml;ger und anglikanische &lt;b&gt;Erzbischof Desmond Tutu&lt;/b&gt; wie auch der argentinische Friedensnobelpreistr&amp;auml;ger und &lt;b&gt;B&amp;uuml;rgerrechtler Adolfo Perez Esquivel&lt;/b&gt; haben unabh&amp;auml;ngig voneinander ihre Sympathie mit unserem Anliegen zum Ausdruck gebracht. Ihre Stellungnahmen zeugen von der internationalen Ausstrahlung unserer Initiative.&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/11/02/Friedensnobelpreistraeger-unterstuetzen-Initiative.html#comments</comments>
+ <pubDate>Mon, 02 Nov 2009 01:06:13 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">407 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>UnternehmerInnen gegen Waffenexporte</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/10/29/UnternehmerInnen-gegen-Waffenexporte.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Werkbank.JPG&quot; onclick=&quot;launch_popup(389, 316, 261); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;149&quot; align=&quot;left&quot; width=&quot;180&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Werkbank.JPG&quot; class=&quot;image image-_original &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Die R&amp;uuml;stungsindustrie nimmt f&amp;uuml;r sich in Anspruch, f&amp;uuml;r die ganze Schweizer Wirtschaft zu sprechen. Viele Schweizer Unternehmerinnen und Unternehmer sehen dies jedoch anders. F&amp;uuml;r sie ist nur eine Wirtschaft, die nicht vom Leid unschuldiger Menschen profitiert, wirklich Wert sch&amp;ouml;pfend. Gerade die Finanzkrise hat gezeigt, dass nur eine Wirtschaft, die auf einem soliden ethischen Fundament steht, eine nachhaltige Zukunft hat.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/10/29/UnternehmerInnen-gegen-Waffenexporte.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/10/29/UnternehmerInnen-gegen-Waffenexporte.html#comments</comments>
+ <pubDate>Thu, 29 Oct 2009 00:30:48 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">388 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Prominente gegen Kriegsmaterial-Exporte</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/10/25/Prominente-gegen-Kriegsmaterial-Exporte.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/UrsusUndNadeschkin_0.jpg&quot; onclick=&quot;launch_popup(353, 302, 260); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;172&quot; align=&quot;left&quot; width=&quot;200&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/UrsusUndNadeschkin_0.jpg&quot; class=&quot;image image-_original&quot; /&gt;&lt;/a&gt;&lt;/span&gt;Polo Hofer, Beat Schlatter, Ursus und Nadeschkin, Chris von Rohr, Martin Suter, Dodo Hug, Peter Stamm und weitere bekannte Schweizer Pers&amp;ouml;nlichkeiten stellen sich gemeinsam gegen Waffenexporte.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/10/25/Prominente-gegen-Kriegsmaterial-Exporte.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/10/25/Prominente-gegen-Kriegsmaterial-Exporte.html#comments</comments>
+ <pubDate>Sat, 24 Oct 2009 23:06:20 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">357 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Das Rennen ist offen!</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/10/23/Das-Rennen-ist-offen.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/pie.JPG&quot; target=&quot;_blank&quot;&gt;&lt;img hspace=&quot;10&quot; height=&quot;153&quot; align=&quot;left&quot; width=&quot;163&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/pie.JPG&quot; class=&quot;image image-_original &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Die Abstimmung zum Verbot von Kriegsmaterialexporten wird knapp ausfallen, wie die Umfrage der SRG SSR id&amp;eacute;e suisse zeigt. Und die Umfrage enth&amp;uuml;llt einen interessanten Aspekt: Ein grosse Mehrheit der Jungen will in Zukunft in einer Schweiz leben, die sich nicht am Krieg bereichert (47 Prozent der Stimmb&amp;uuml;rgerInnen zwischen 18 und 39 Jahren bei 22 Prozent Nein-Anteil).&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/10/23/Das-Rennen-ist-offen.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/10/23/Das-Rennen-ist-offen.html#comments</comments>
+ <pubDate>Fri, 23 Oct 2009 16:11:10 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">334 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Greenpeace unterstützt Exportverbot für Kriegsmaterial</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/10/15/Greenpeace-unterstuetzt-Exportverbot-fuer-Kriegsmaterial.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kuwait_1991_klein.jpg&quot; onclick=&quot;launch_popup(296, 1600, 1047); return false;&quot; target=&quot;_blank&quot;&gt;&lt;img height=&quot;131&quot; width=&quot;200&quot; align=&quot;left&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Kuwait_1991_klein.thumbnail.jpg&quot; alt=&quot;Krieg als Umweltkatastrophe: brennende &amp;Ouml;lfelder in Kuwait, Mai 1991&quot; class=&quot;image image-thumbnail &quot; /&gt;&lt;/a&gt;&lt;/span&gt;Zum ersten Mal seit &amp;uuml;ber zehn Jahren engagiert sich Greenpeace Schweiz in einer friedenspolitischen Debatte. Die Volksinitiative f&amp;uuml;r ein Verbot von Kriegsmaterial-Exporten sei eine einmalige Gelegenheit f&amp;uuml;r die Schweiz, international ein Zeichen zu setzen, auch im Sinne eines &amp;laquo;Green New Deal&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;Mehr dazu auf der Website von Greenpeace: &lt;a target=&quot;_blank&quot; href=&quot;http://www.greenpeace.ch/was-kann-ich-tun/mitmachen/gsoa-initiative-gegen-waffenexporte/&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/10/15/Greenpeace-unterstuetzt-Exportverbot-fuer-Kriegsmaterial.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/10/15/Greenpeace-unterstuetzt-Exportverbot-fuer-Kriegsmaterial.html#comments</comments>
+ <pubDate>Thu, 15 Oct 2009 09:35:16 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">297 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>70 Rechtsprofessoren kritisieren Kriegsmaterial-Bewilligungspraxis</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/10/11/70-Rechtsprofessoren-kritisieren-Kriegsmaterial-Bewilligungspraxis.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;a target=&quot;_blank&quot; onclick=&quot;launch_popup(292, 170, 203); return false;&quot; href=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.jpg&quot;&gt;&lt;img hspace=&quot;5&quot; height=&quot;120&quot; align=&quot;left&quot; width=&quot;100&quot; class=&quot;image image-thumbnail &quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/paragraph.thumbnail.jpg&quot; /&gt;&lt;/a&gt;&lt;/span&gt; Die Schweiz hat kein wirkungsvolles Regime f&amp;uuml;r R&amp;uuml;stungsexport-Kontrollen: 70 Rechtsprofessoren und Rechtsprofessorinnen werfen dem Bundesrat Missachtung der schweizerischen Gesetzgebung vor.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/10/11/70-Rechtsprofessoren-kritisieren-Kriegsmaterial-Bewilligungspraxis.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/10/11/70-Rechtsprofessoren-kritisieren-Kriegsmaterial-Bewilligungspraxis.html#comments</comments>
+ <pubDate>Sun, 11 Oct 2009 09:42:04 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">293 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Schweizer Waffen für Gaddafi</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/09/08/Schweizer-Waffen-fuer-Gaddafi.html</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img height=&quot;293&quot; width=&quot;250&quot; align=&quot;left&quot; class=&quot;image image-_original &quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/Assad_Kanone.jpg&quot; /&gt;&lt;/span&gt;Eine offizielle Delegation der Schweiz wird diese Woche an einer Waffenmesse in London teilnehmen &amp;ndash; Seite an Seite mit Libyen, dessen Staatsoberhaupt die Schweiz am liebsten von der Bildfl&amp;auml;che verschwinden lassen w&amp;uuml;rde. Kein Wunder, die beiden L&amp;auml;nder pflegten schon immer gute R&amp;uuml;stungsbeziehungen.&lt;/p&gt;
+&lt;p&gt;Die britische Regierung hat f&amp;uuml;r diesen Anlass eine Reihe von offiziellen Delegationen eingeladen. Bei den Einladungen wurden nicht nur die Schweiz, sondern auch Libyen ber&amp;uuml;cksichtigt. Beide L&amp;auml;nder nahmen die Einladung dankend an. Kommende Woche informiert sich die Schweiz folglich sorglos &amp;uuml;ber die neuesten Waffensysteme &amp;ndash; Seite an Seite mit Libyen, dessen Staatsoberhaupt die Schweiz am liebsten von der Bildfl&amp;auml;che verschwinden lassen w&amp;uuml;rde.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/09/08/Schweizer-Waffen-fuer-Gaddafi.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/09/08/Schweizer-Waffen-fuer-Gaddafi.html#comments</comments>
+ <pubDate>Tue, 08 Sep 2009 21:47:45 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">262 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Skandalöse Waffenlieferungen im ersten Halbjahr 2009</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/08/04/Skandaloese-Waffenlieferungen-im-ersten-Halbjahr-2009.html</link>
+ <description>&lt;p&gt;Heute hat die Zollverwaltung die neuesten &lt;a href=&quot;http://www.drs.ch/www/de/drs/nachrichten/wirtschaft/134541.schweizer-waffenexporte-laufen-weiterhin-gut.html&quot;&gt;Ausfuhrstatistiken&lt;/a&gt; f&amp;uuml;r das &lt;a href=&quot;http://www.gsoa.ch/media/filecontent/KMEHalbjahr2009.pdf&quot;&gt;erste Halbjahr 2009&lt;/a&gt; ver&amp;ouml;ffentlicht. In den letzten sechs Monaten wurden Waffen in L&amp;auml;nder geliefert, welche Menschenrechte verletzen oder in einen Konflikt verwickelt sind. Weiterhin stellt der Bundesrat die Profite der Kriegsmaterial-Produzenten &amp;uuml;ber das Engagement f&amp;uuml;r Frieden und Menschenrechte.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/08/04/Skandaloese-Waffenlieferungen-im-ersten-Halbjahr-2009.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/08/04/Skandaloese-Waffenlieferungen-im-ersten-Halbjahr-2009.html#comments</comments>
+ <category domain="http://www.kriegsmaterial.ch/site/category/Tags/exportwohin">exportwohin</category>
+ <pubDate>Tue, 04 Aug 2009 19:52:30 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">225 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Schockierende Menschenrechtsverletzungen in Saudiarabien - Die Schweiz exportiert Waffen im grossen Stil</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/07/24/Schockierende-Menschenrechtsverletzungen-Saudiarabien-Die-Schweiz-exportiert-Waffen-im-grossen-Stil.html</link>
+ <description>&lt;p&gt;&lt;img hspace=&quot;10&quot; border=&quot;0&quot; align=&quot;left&quot; vspace=&quot;10&quot; src=&quot;http://www.kriegsmaterial.ch/site/sites/www.kriegsmaterial.ch/files/images/sa.thumbnail.jpg&quot; alt=&quot;Saudische Anti-Terror-Truppen&quot; title=&quot;Saudische Anti-Terror-Truppen&quot; /&gt;Saudi-Arabien geh&amp;ouml;rt zu den 10 wichtigsten Kunden der Schweizer R&amp;uuml;stungsindustrie, obwohl das Land die Menschenrechte systematisch und schwerwiegend verletzt. Amnesty International und Human Rights Watch (HRW)&amp;nbsp;haben k&amp;uuml;rzlich Berichte &amp;uuml;ber die Lage im saudischen K&amp;ouml;nigreich ver&amp;ouml;ffentlicht, die nicht eindeutiger sein k&amp;ouml;nnten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/07/24/Schockierende-Menschenrechtsverletzungen-Saudiarabien-Die-Schweiz-exportiert-Waffen-im-grossen-Stil.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/07/24/Schockierende-Menschenrechtsverletzungen-Saudiarabien-Die-Schweiz-exportiert-Waffen-im-grossen-Stil.html#comments</comments>
+ <category domain="http://www.kriegsmaterial.ch/site/category/Tags/exportwohin">exportwohin</category>
+ <pubDate>Fri, 24 Jul 2009 12:53:03 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">221 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Schweiz im Jahr 2008 zweitgrösster Pro-Kopf-Waffenexporteur</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/04/28/Schweiz-im-Jahr-2008-zweitgroesster-Pro-Kopf-Waffenexporteur.html</link>
+ <description>&lt;p&gt;Gemäss den gestern vom renommierten Stockholmer Friedensforschungsinstitut &lt;a href=&quot;http://www.sipri.org/&quot; target=&quot;_blank&quot; title=&quot;SIPRI&quot;&gt;SIPRI&lt;/a&gt; veröffentlichten Zahlen war die Schweiz im Jahr 2008 das Land, welches weltweit am zweitmeisten Kriegsmaterial pro Einwohner exportierte. Im Vorjahr lag die Schweiz noch auf dem Rang 6. Vorallem die Zunahme der Exporte nach Pakistan, aber auch in Länder wie Rumänien und Singapur sorgten für den traurigen Sprung nach vorne. &lt;br /&gt;&lt;a href=&quot;/blog/uploads/exporte2008.jpg&quot; class=&quot;serendipity_image_link&quot;&gt;&lt;img hspace=&quot;20&quot; border=&quot;0&quot; align=&quot;baseline&quot; vspace=&quot;10&quot; src=&quot;/blog/uploads/exporte2008.thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Auf der globalen Ebene macht SIPRI insbesondere auf den markanten Anstieg der Exporte in den Nahen Osten aufmerksam. Innerhalb weniger Jahre sind die Waffenverkäufe in diese Region um 38 Prozent angestiegen.&lt;/p&gt;
+&lt;p&gt;Diese und eine Fülle weiterer Daten über den weltweiten Waffenhandel finden sich &lt;a href=&quot;http://www.sipri.org/contents/armstrad/at_db.html &quot; target=&quot;_blank&quot; title=&quot;SIPRI-Datenbank&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/04/28/Schweiz-im-Jahr-2008-zweitgroesster-Pro-Kopf-Waffenexporteur.html#comments</comments>
+ <pubDate>Tue, 28 Apr 2009 21:14:58 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">210 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+<item>
+ <title>Kick-Off Event Abstimmungskampagne Kriegsmaterial-Initiative - 19. April</title>
+ <link>http://www.kriegsmaterial.ch/site/2009/04/15/Kick-Event-Abstimmungskampagne-Kriegsmaterial-Initiative-19-April.html</link>
+ <description>&lt;p&gt;2007 hat die GSoA die Volksinitiative &amp;quot;F&amp;uuml;r ein Verbot von Kriegsmaterial-Exporten&amp;quot; eingereicht. Diese Initiative k&amp;ouml;nnte schon im November dieses Jahres zur Abstimmung kommen. Zeit, um eine gute Kampagne zu planen! Den &lt;b&gt;Start dieser Kampagne&lt;/b&gt; k&amp;ouml;nnt ihr live miterleben. Wir laden euch herzlich ein, &lt;b&gt;diesen Sonntag, 19. April&lt;/b&gt;  im Restaurant Kreuz in &lt;b&gt;Solothurn &lt;/b&gt;am Kick-Off Event, der im Rahmen der allj&amp;auml;hrlichen GSoA-Vollversammlung stattfinden wird, teilzunehmen. Eine Wegbeschreibung findet ihr &lt;a href=&quot;http://www.gsoa.ch/agenda/?d=0#19.4.2009&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kriegsmaterial.ch/site/2009/04/15/Kick-Event-Abstimmungskampagne-Kriegsmaterial-Initiative-19-April.html&quot; target=&quot;_blank&quot;&gt;Weiterlesen&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.kriegsmaterial.ch/site/2009/04/15/Kick-Event-Abstimmungskampagne-Kriegsmaterial-Initiative-19-April.html#comments</comments>
+ <pubDate>Wed, 15 Apr 2009 21:43:44 +0000</pubDate>
+ <dc:creator>aw</dc:creator>
+ <guid isPermaLink="false">209 at http://www.kriegsmaterial.ch/site</guid>
+</item>
+</channel>
+</rss>
